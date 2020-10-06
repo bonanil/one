@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    color: white;
+}
+.drop a:hover{
+background-color: aqua;
+}
+.extra{
+    margin: 3rem;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+    
+    transform: translateX(-5px);
+    transition: 1 sec all ease;
+    border: 2px solid rgb(96, 96, 206);
+    border-radius: 10px;
+}
+.header{
+    background-image: url(./bg.jpg);
+    height: 40rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.found:hover{
+    transform: translate(5px);
+    transition: 1 sec all ease;
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+}
+.extr-div{
+    height: 10rem;
+    width: rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+}
+.extr:hover{
+    transform: translateY(-8px);
+    transition: 2 sec all ease;
+
+}
+.im{
+    height: 12rem;
+    width: 10rem;
+    background-color: paleturquoise;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+}
+.im img{
+    margin-top: 1rem;
+}
+.newst{
+    background-image: url(./pexels-pixabay-290275.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: ;
+    background-size: cover;
+
+}
+.so ul li a{
+    border: 1px solid orange;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 30px;
+margin-top: 1rem;
+padding: .5rem;
+color: orange;
+
+}
